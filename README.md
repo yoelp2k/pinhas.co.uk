@@ -2,8 +2,8 @@
 
 A small bilingual website for Maly Pinhas's occupational therapy practice, available in English and Hebrew.
 
-- Live site: [pinhas.co.uk](https://www.pinhas.co.uk)
-- Current GitHub Pages preview: [yoelp2k.github.io/my-ot.eu](https://yoelp2k.github.io/my-ot.eu/)
+- Live site: [maly.pinhas.co.uk](https://maly.pinhas.co.uk)
+- Current GitHub Pages preview: [yoelp2k.github.io/pinhas.co.uk](https://yoelp2k.github.io/pinhas.co.uk/)
 
 The site uses plain HTML and CSS. It has no client-side JavaScript, cookies, analytics, external fonts, or runtime dependencies.
 
@@ -35,9 +35,9 @@ When editing text, update the relevant HTML page and its matching JSON file. Run
 
 Pushes to `main` run the tests and deploy the static files through GitHub Actions. Pull requests run the same tests without publishing.
 
-GitHub Pages must use **GitHub Actions** as its source. Configure `www.pinhas.co.uk` under **Settings → Pages → Custom domain**; the workflow does not require a repository `CNAME` file. Enable **Enforce HTTPS** after GitHub's DNS check succeeds.
+GitHub Pages must use **GitHub Actions** as its source. Configure `maly.pinhas.co.uk` under **Settings → Pages → Custom domain**; the workflow does not require a repository `CNAME` file. Enable **Enforce HTTPS** after GitHub's DNS check succeeds.
 
-For `pinhas.co.uk`, the apex uses GitHub Pages' four `A` records and `www` is a `CNAME` to `yoelp2k.github.io`.
+For `maly.pinhas.co.uk`, use a `CNAME` to `yoelp2k.github.io`. Keep the `pinhas.co.uk` apex DNS records available for Microsoft 365 email.
 
 ## Domain safety
 

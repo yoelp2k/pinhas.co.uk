@@ -8,4 +8,4 @@ This is a dependency-free bilingual static site for an occupational therapy prac
 - Strip location and camera metadata from new images before committing them.
 - Run `npm test` after every content, navigation, styling, or deployment change.
 - Deployment is handled only by `.github/workflows/pages.yml`; do not add Azure workflows or a `CNAME` file.
-- The website domain is `www.pinhas.co.uk`. Reserve `my-ot.eu` for Microsoft 365 email and never change its MX, TXT, or `autodiscover` records for website hosting.
+- The website domain is `maly.pinhas.co.uk`. Reserve the `pinhas.co.uk` apex DNS records for Microsoft 365 email and never change its MX, TXT, or `autodiscover` records for website hosting.

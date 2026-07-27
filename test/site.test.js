@@ -73,7 +73,7 @@ test('locale pages remain structurally equivalent and accessible', () => {
     assert.match(html, /whatsapp-mark\.png/);
     assert.match(html, /<main id="main-content">/);
     assert.match(html, /href="#main-content"/);
-    assert.match(html, /rel="canonical" href="https:\/\/www\.pinhas\.co\.uk/);
+    assert.match(html, /rel="canonical" href="https:\/\/maly\.pinhas\.co\.uk/);
     assert.doesNotMatch(html, /rel="(?:canonical|alternate)"[^>]+my-ot\.eu/);
     assert.match(html, /hreflang="en"/);
     assert.match(html, /hreflang="he"/);
