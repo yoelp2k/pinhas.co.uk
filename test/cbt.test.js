@@ -15,7 +15,7 @@ test('CBT flyer preserves the agreed offer and working contact destinations', ()
 test('CBT local assets exist and the page is included in deployment', () => {
   for (const match of page.matchAll(/(?:src|href)="([^"#:]+)"/g)) {
     if (/^(https?:|mailto:|tel:)/.test(match[1])) continue;
-    assert.ok(fs.existsSync(path.resolve(root, 'cbt', match[1])), match[1]);
+    assert.ok(fs.existsSync(path.resolve(root, 'cbt', match[1].split('?')[0])), match[1]);
   }
   const workflow = fs.readFileSync(path.join(root, '.github/workflows/pages.yml'), 'utf8');
   assert.match(workflow, /cp cbt\/index\.html cbt\/style\.css _site\/cbt\//);
