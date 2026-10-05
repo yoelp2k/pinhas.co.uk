@@ -11,6 +11,7 @@ The site uses plain HTML and CSS. It has no client-side JavaScript, cookies, ana
 
 - `index.html` — English page
 - `he/index.html` — Hebrew RTL page
+- `cbt/index.html` and `cbt/style.css` — standalone Hebrew CBT flyer at `/cbt/`, using the agreed flyer copy and contact details
 - `style.css` — shared responsive styles
 - `en.json` and `he.json` — canonical text used by the tests
 - `maly-portrait.webp` — optimized portrait with camera and location metadata removed

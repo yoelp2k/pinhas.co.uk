@@ -82,7 +82,7 @@ test('locale pages remain structurally equivalent and accessible', () => {
 
 test('contact details and professional profile are current in both languages', () => {
   for (const html of [englishPage, hebrewPage]) {
-    assert.match(html, /mailto:maly\.pinhas@gmail\.com/);
+    assert.match(html, /mailto:maly@pinhas\.co\.uk/);
     assert.match(html, /https:\/\/wa\.me\/972507870635/);
     assert.match(html, /class="button button-secondary whatsapp-button" href="https:\/\/wa\.me\/972507870635"/);
     assert.match(html, /https:\/\/www\.linkedin\.com\/in\/malypinhas\//);

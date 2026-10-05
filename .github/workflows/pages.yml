@@ -53,6 +53,8 @@ jobs:
           cp index.html style.css maly-portrait.webp linkedin-in.png whatsapp-mark.png _site/
           mkdir _site/he
           cp he/index.html _site/he/
+          mkdir _site/cbt
+          cp cbt/index.html cbt/style.css _site/cbt/
           touch _site/.nojekyll
 
       - name: Upload GitHub Pages artifact
