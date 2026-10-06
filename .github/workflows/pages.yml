@@ -55,7 +55,7 @@ jobs:
           cp he/index.html _site/he/
           mkdir _site/cbt
           cp cbt/index.html cbt/style.css _site/cbt/
-          cp cbt/portrait.jpg cbt/share-preview-v4.jpg _site/cbt/
+          cp cbt/portrait.jpg cbt/share-preview-v5.jpg _site/cbt/
           touch _site/.nojekyll
 
       - name: Upload GitHub Pages artifact
